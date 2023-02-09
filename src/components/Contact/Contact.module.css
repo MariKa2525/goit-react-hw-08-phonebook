@@ -1,0 +1,25 @@
+.btn {
+    margin-left: 30px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(2, 192, 202);
+    color: aliceblue;
+}
+
+.btn:focus,
+.btn:hover {
+    background-color: grey;
+    color: azure;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 80px;
+    padding: 0 30px;
+}

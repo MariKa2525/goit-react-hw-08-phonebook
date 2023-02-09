@@ -1,0 +1,20 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(33, 33, 33);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item + .item {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}

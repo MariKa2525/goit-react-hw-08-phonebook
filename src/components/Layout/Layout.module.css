@@ -1,0 +1,11 @@
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(33, 33, 33);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.2),
+    0 0 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;  
+}
