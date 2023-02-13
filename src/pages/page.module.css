@@ -1,0 +1,13 @@
+.container {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+    margin-top: 180px;
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+  color:  rgb(37, 140, 224);
+}
