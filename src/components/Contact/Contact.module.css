@@ -5,9 +5,9 @@
     padding: 10px 30px;
     border-radius: 15px;
     border: 2px;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
-    background-color: rgb(2, 192, 202);
+    background-color: rgb(37, 140, 224);
     color: aliceblue;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .text {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin-right: 80px;
     padding: 0 30px;

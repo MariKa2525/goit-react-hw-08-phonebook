@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .username {
+    font-weight: 700;
+  }
+
+  .btn {
+    text-align: center;
+    color: rgb(17, 30, 109);
+    background-color: rgb(187, 210, 228);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn:focus,
+.btn:hover {
+    background-color: gray;
+}
+  

@@ -15,12 +15,11 @@ export const ContactList = () => {
       return contacts;
     }
   };
-
   const filterContacts = getContacts();
 
   return (
     <ul className={css.list}>
-      {filterContacts.length !== 0 &&
+      {filterContacts &&
         filterContacts.map(contact => {
           return (
             <li className={css.item} key={contact.id}>

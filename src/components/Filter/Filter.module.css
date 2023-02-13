@@ -2,14 +2,23 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgba(136, 244, 248, 0.991);
+    background-color: rgba(32, 122, 225, 0.991);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.2),
     0 0 4px rgba(0, 0, 0, 0.2);
     border-radius: 4px;  
 }
 
+.title {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+    color: azure;
+}
+
 .container {
-    width: 1138px;
+    
     font-weight: 700;
     font-size: 20px;
     line-height: 1.5;
@@ -26,7 +35,7 @@
 .input {
     width: 100%;
     cursor: pointer;
-    font-size: 28px;
+    font-size: 20px;
     margin: 0px;
     padding: 11px 12px 11px 42px;
     border-width: 1px;
@@ -41,12 +50,12 @@
     outline-color:  rgb(9, 102, 128);
   }
 
-  .label {
+.label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     width: 500px;
     margin-right: 10px;
-    font-size: 28px;
+    font-size: 20px;
 }
