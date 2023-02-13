@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/auth-operation';
-import { useNavigate } from 'react-router-dom';
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -13,7 +12,6 @@ import Container from '@mui/material/Container';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -23,9 +21,7 @@ export const LoginForm = () => {
         email: form.elements.email.value,
         password: form.elements.password.value,
       })
-    )
-      .unwrap()
-      .then(() => navigate('/contacts'));
+    );
     form.reset();
   };
 
