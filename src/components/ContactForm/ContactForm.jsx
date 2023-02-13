@@ -4,6 +4,8 @@ import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
 import { addContact } from 'redux/contacts/contactsOperations';
 import { useSelector } from 'react-redux';
+import Notiflix from 'notiflix';
+
 
 export const ContactForm = () => {
   const dispatch = useDispatch();
@@ -24,7 +26,7 @@ export const ContactForm = () => {
           item.name.toLocaleLowerCase() === contact.name.toLocaleLowerCase()
       )
       if (double) {
-        return alert(`${contact.name} is already in contacts`);
+        return Notiflix.Report.failure(`${contact.name} is already in contacts`);
       }
       dispatch(addContact(contact));
     }
